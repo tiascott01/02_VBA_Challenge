@@ -12,13 +12,13 @@ Lastly, I have exported the script module from it's origial name and renamed it 
 
 If the directions and photos were wrong and the Percent Change column needed to be conditionally formatted based on colors, my solution would be (Applied in the appropriate location):
 
-   If ws.Cells(Output_Row, PERCENT_CHG_COL).Value > 0 Then
-       ws.Cells(Output_Row, PERCENT_CHG_COL).Interior.Color = RGB(51, 153, 51)
-   ElseIf ws.Cells(Output_Row, PERCENT_CHG_COL).Value < 0 Then
-       ws.Cells(Output_Row, PERCENT_CHG_COL).Interior.Color = RGB(255, 0, 0)
-   Else
-       ws.Cells(Output_Row, PERCENT_CHG_COL).Interior.Color = RGB(255, 255, 255)
-   End If
+      If ws.Cells(Output_Row, PERCENT_CHG_COL).Value > 0 Then
+          ws.Cells(Output_Row, PERCENT_CHG_COL).Interior.Color = RGB(51, 153, 51)
+      ElseIf ws.Cells(Output_Row, PERCENT_CHG_COL).Value < 0 Then
+          ws.Cells(Output_Row, PERCENT_CHG_COL).Interior.Color = RGB(255, 0, 0)
+      Else
+          ws.Cells(Output_Row, PERCENT_CHG_COL).Interior.Color = RGB(255, 255, 255)
+      End If
 
 The above result has been tested and has been found to work following calculations for format of the percentage of the percent change column. An alternate Dim could have been used to make the solution cleaner as well. 
 
@@ -37,4 +37,12 @@ You can use these scripts to analyze stock data in Excel. Depending on the requi
 3. Run the VBA script (`TiaScott_VBA Challenge 02.bas) within Excel to perform the analysis and generate summary tables.
 
 4. The results will be displayed in the Excel spreadsheet across all entire workbook.
+
+## Resources and Citations
+
+1. Activate Across all workbooks and autosize cells - ChatGPT.Com
+
+2. Conditional Formatting Formula - George Liberatos
+
+3. Printing Error Fix - Quentin O'Neil
  
