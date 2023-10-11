@@ -40,9 +40,11 @@ You can use these scripts to analyze stock data in Excel. Depending on the requi
 
 ## Resources and Citations
 
-1. Activate Across all workbooks and autosize cells - ChatGPT.Com
-
-2. Conditional Formatting Formula - George Liberatos
-
-3. Printing Error Fix - Quentin O'Neil
+1. TA - Kourt Bailey
+   
+3. Activate Across all workbooks and autosize cells - ChatGPT.Com
+   
+5. Conditional Formatting Formula - George Liberatos
+   
+7. Printing Error Fix - Quentin O'Neil
  
